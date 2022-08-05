@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Switcher</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <ul id="switcher">
+            <li class="branding">
+               <a href="#">
+                <img src="assets/images/logo.png" alt="">
+               </a>
+            </li>				
+            <li class="resize animated fadeIn">
+                <ul>
+                    <li><a href="#" class="sprite resize-icon desktop" title="Desktop"></a></li>
+                    <li><a href="#" class="sprite resize-icon ipad" title="iPad"></a></li>
+                    <li><a href="#" class="sprite resize-icon iphone" title="iPhone"></a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="selector-ul">
+                    <li>
+                        <select name="forma" onchange="location = this.value;" class="theme-selector">
+                            <option selected>Select Theme</option>
+                            
+                            <option value="http://myftpbd.com/VS/demo-switcher/demo-switcher/themecheers-blog-preview.html">Themecheers Blog</option>
+                            <option value="http://myftpbd.com/VS/demo-switcher/demo-switcher/portfolio-preview.html">Portfolio</option>
+                           
+                           </select>
+                    </li>
+                </ul>
+            </li>
+            <li class="theme-selector-li">
+               <a href="#" class="download-btn">Download</a>
+            </li>
+        </ul>
+    </div>
+        
+    <div id="iframe-wrap">		
+        <iframe id="iframe" src="https://myftpbd.com/VS/themecheers-products/portfolio/index.html" frameborder="0" width="100%"></iframe>
+    </div> 
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
