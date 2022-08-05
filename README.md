@@ -1,1 +1,1 @@
-https://themecheers.github.io/Demo-Switcher/
+#Demo-Switcher
